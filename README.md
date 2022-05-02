@@ -23,3 +23,5 @@ This is a multipages website. You can click on page at navbar to open your desir
     | navbar.css | It contains css code of navbar of Academica |
     
   - **index.css :** This file contains css code of base css file, it connects all the css file in it.
+
+- https://kamya123.github.io/AcadmicaLink/
