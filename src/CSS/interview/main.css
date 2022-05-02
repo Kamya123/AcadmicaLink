@@ -1,0 +1,83 @@
+.interview-container > .tracks-container > h2 > span{
+  color: var(--blue);
+  border-bottom: 1px solid var(--dark-blue);
+  padding-bottom: 12px;
+  border: 1px solid #000;
+}
+
+iframe{
+  width: 35em;
+  height: 18em;
+  margin: 0 1em;
+}
+
+.heading{
+  font-size: 2em;
+  color: var(--dark-blue);
+}
+
+.sub-heading a{
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  border-bottom: 2px dashed var(--blue);
+}
+
+@media(max-width: 700px){
+  .main-container{
+    position: static;
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 100vw;
+    padding: 20px;
+  }
+
+  .text-container{
+    margin: 0em;
+    padding: 0em;
+    padding-top: 10em;
+    position: static;
+    width: 100%;
+    text-align: center;
+  }
+
+  .text-container > h1 > span{
+    font-size: 1.8em !important;
+  }
+
+  .icon-container{
+    margin-top: 0.5em !important;
+    font-size: 1em !important;
+  }
+
+  .fa-arrow-down{
+    display: none;
+  }
+
+  .image-container{
+    margin-top: 5em !important;
+    padding: 0px;
+    width: 95%;
+    position: static;
+    margin: auto;
+  }
+
+  .video-container{
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100vw;
+  }
+
+  iframe{
+    width: 85%;
+    margin: 0 !important;
+    padding: 0;
+    margin-left: -2.5em !important;
+    margin-bottom: 1em !important;
+    height: 12em !important;
+  }
+
+  .faq-row{
+    width: 90%;
+  }
+}
